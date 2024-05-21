@@ -76,6 +76,15 @@ public class Card {
         if (pSuit == 0) {
             suit = "Hearts";
         }
+        if(pSuit == 1 ){
+            suit= "Diamonds";
+        }
+        if(pSuit == 2){
+            suit = "Spades";
+        }
+        if(pSuit == 3){
+            suit = "Clubs";
+        }
     }
 
     public void print(){
