@@ -13,11 +13,13 @@ public class Player {
 
 
     public Player(){
-
+        isDealer = pisDealer;
+        cardsSum = pcardsSum;
+        isBust = pisBust;
 
     }
 
     public void print(){
-
+            System.out.println();
     }
 }
